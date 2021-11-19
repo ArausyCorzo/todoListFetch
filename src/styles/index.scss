@@ -41,3 +41,39 @@ li{
 p{
     color: grey;
 }
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+// const handleSavetask = event => {
+	// 	setTask(event.target.value);
+	// 	console.log(task);
+	// };
+
+	// const handleSubmit = event => {
+	// 	event.preventDefault();
+	// };
+
+	// const handlekeyPress = event => {
+	// 	if (event.key === "Enter") {
+	// 		if (task != "") {
+	// 			setTasks([...tasks, event.target.value]);
+	// 			setTask("");
+	// 		}
+	// 	}
+	// };
+
+	// const handleDelete = id => {
+	// 	const newList = tasks.filter((task, index) => index != id);
+	// 	setTasks(newList);
+	// };
+
+    // onChange={handleSavetask}
+// onKeyPress={handlekeyPress}
+	// value={task}
+
+    // onClick={() => handleDelete(index)}
+
